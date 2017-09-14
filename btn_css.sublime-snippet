@@ -1,0 +1,19 @@
+<snippet>
+	<content><![CDATA[
+.btn {
+	display: inline-block;	
+	padding: 2px 15px;
+	border: 1px solid #ccc; 
+	color: #333; 
+	background: #fff;
+	text-align: center;
+	vertical-align: middle;
+	cursor: pointer;
+	@include border-radius(5px);
+}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>btn_css</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

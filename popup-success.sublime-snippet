@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+<div id="send-success" class="popup-container mfp-hide">	
+	<button title="Close (Esc)" type="button" class="mfp-close">×</button>  
+	<h4>${1:Сообщение успешно отправлено}</h3>
+	<p>${2:в ближайшее время мы свяжемся с Вами.}</p>
+</div>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>popup-success_html</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

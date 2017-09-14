@@ -1,0 +1,30 @@
+<snippet>
+	<content><![CDATA[
+<div class="page">
+	<header>
+
+	</header>
+	<!-- end header -->
+	<div class="container">
+		<aside class="sidebar">
+			
+		</aside>
+		<!-- end sidebar -->
+		<div class="content">
+			
+		</div>
+		<!-- end content -->
+	</div>
+	<!-- end container -->
+	<footer>
+		
+	</footer>
+	<!-- end footer -->
+</div>
+<!-- end page -->
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>page-structure_html</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

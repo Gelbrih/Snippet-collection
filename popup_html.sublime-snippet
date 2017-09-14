@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+<a href="#${1:popup-name}" class="btn popup-link" title="${3:Заказать звонок}">${3:Заказать звонок}</a>	
+<div id="${1:popup-name}" class="popup-container mfp-hide">	
+	<button title="Close (Esc)" type="button" class="mfp-close">×</button>  
+	${5}
+</div>
+<!-- end popup-container -->
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>popup_html</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

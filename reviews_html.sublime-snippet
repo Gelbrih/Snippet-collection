@@ -1,0 +1,38 @@
+<snippet>
+	<content><![CDATA[
+<div class="reviews">
+	<div class="review">
+		<div class="reviewer-photo">
+			<img src="images/${1:review-photo-1.png}" alt="${4:#}">
+		</div>
+		<h3 class="reviewer-name">${4:#}</h3>
+		<div class="review-content">
+
+		</div>
+	</div>
+	<div class="review">
+		<div class="reviewer-photo">
+			<img src="images/${2:review-photo-2.png}" alt="${5:#}">
+		</div>
+		<h3 class="reviewer-name">${5:#}</h3>
+		<div class="review-content">
+
+		</div>
+	</div>
+	<div class="review">
+		<div class="reviewer-photo">
+			<img src="images/${3:review-photo-3.png}" alt="${6:#}">
+		</div>
+		<h3 class="reviewer-name">${6:#}</h3>
+		<div class="review-content">
+
+		</div>
+	</div>
+</div>	
+<!-- end reviews -->
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>reviews_html</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

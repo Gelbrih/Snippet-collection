@@ -1,0 +1,31 @@
+<snippet>
+	<content><![CDATA[
+/*--------------------------------------------------------------
+# Form
+--------------------------------------------------------------*/
+.form-group {
+    margin-bottom: 15px;
+}
+.form-label {
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 5px;
+}
+.form-field {
+	display: block;
+	width: 100%;
+	height: 35px;
+	padding: 5px 10px;
+	font-size: 16px;
+	color: #555;
+	background-color: #fff;
+	border: 1px solid #ccc;
+	@include border-radius(5px);
+	box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>form_css</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

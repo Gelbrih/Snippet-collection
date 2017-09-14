@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+<div class="logo">
+	<a href="index.html" title="home">
+		<img src="images/logo.png" alt="${1:Company name}" />
+	</a>
+</div>
+<!-- end logo -->
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>logo_html</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

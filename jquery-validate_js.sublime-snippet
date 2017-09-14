@@ -1,0 +1,55 @@
+<snippet>
+	<content><![CDATA[
+\$(document).ready(function() {	
+	\$.validator.addMethod("customemail", 
+		function(value, element) {
+			return /^\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*$/.test(value);
+		}, 
+		"Please enter a valid email address."
+		); 
+
+	function sendSuccess() {
+		\$.magnificPopup.open({
+			items: {
+				src: '#send-success'
+			},
+			type: 'inline'
+		});
+	};
+	
+	\$("#callback-form").validate({
+		rules: {
+			"name": {
+				required: true,
+				minlength: 4
+			},               
+			email: {                	
+				customemail: true 
+			},
+
+		},            
+		submitHandler: function (form) {
+			\$.ajax({
+				type: 'GET',
+				url: 'mail.php',
+				data: \$(form).serialize(),
+				success: function () {
+ 					//window.parent.$.magnificPopup.close();
+					sendSuccess();
+				}
+
+			});
+			return false;
+		},
+		errorPlacement: function(error,element) {
+			return true;
+		}
+	});  
+
+});
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>jquery-validate_js</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>
